@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46.5px 177.5px;
+    border-bottom: 2px solid #DEDBDB;
+}
+
+nav>div>p {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    text-align: left;
+    color: #424242;
+}
+
+nav>div {
+    display: flex;
+    gap: 16px;
+}
+
+.main {
+    height: 786px;
+    width: 650px;
+    border: 1px solid #DEDBDB;
+    padding: 70px 59px;
+    margin: 43px auto;
+    border-radius: 50px;
+}
+
+.offerta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imzolash {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    color: rgb(240, 64, 15);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Space {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.Space>h2 {
+    color: rgb(14, 13, 93);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.gray {
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    background: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 7px 8px 7px;
+}
+
+.gray>div:hover{
+    background-color:white;
+}
+.gray>div:hover>p{
+color: black;
+}
+
+
+.oquvchiman {
+    width: 255px;
+    height: 54px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.oquvchiman>p {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    text-align: left;
+    color: gray;
+}
+.ota{
+    width: 255px;
+    height: 54px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ota>p {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    text-align: left;
+    color: gray;
+}
+
+.input {
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    background: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 50px;
+}
+
+.input>input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-align: left;
+}
+
+.password_box {
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    background: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 50px;
+}
+
+.password_box>input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-align: left;
+}
+
+.QR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.QR>h3 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-align: left;
+    color: #000000a3;
+}
+
+.btn>button>p {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: end;
+}
+
+.btn>button {
+    border: none;
+    background: #F69E86;
+    Width: 202px;
+    Height: 67px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
